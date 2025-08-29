@@ -33,8 +33,10 @@
     <header>
       <!--Navbar Section-->
       <nav>
-        <div class="h-[17vh]">
-          <div class="flex justify-between items-center px-8 h-full">
+        <div class="h-auto py-4">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 gap-3"
+          >
             <div class="flex gap-2">
               <img
                 class="h-[50px] w-[50px]"
@@ -95,10 +97,16 @@
     </div>
 
     <!--main section starts here-->
+    <
     <section class="bg-[#f5fff6] pt-6 mb-5">
       <main class="w-11/12 mx-auto">
-        <section id="hotline-numbers-container" class="grid grid-cols-12 gap-5">
-          <section class="col-span-9 grid gap-8 grid-cols-3">
+        <section
+          id="hotline-numbers-container"
+          class="grid grid-cols-1 lg:grid-cols-12 gap-5"
+        >
+          <section
+            class="col-span-1 lg:col-span-9 grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+          >
             <div class="bg-white p-6 rounded-2xl shadow">
               <div class="flex justify-between items-center">
                 <img
@@ -127,12 +135,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-10 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-10 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="call-emergency-btn"
-                  class="btn bg-green-700 px-14 text-white"
+                  class="btn bg-green-700 px-14 text-white hover:bg-gray-400"
                 >
                   <i id="phone-icon" class="fa-solid fa-phone"></i>Call
                 </button>
@@ -166,12 +176,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-10 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-10 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="police-helpline-btn"
-                  class="btn bg-green-700 px-14 text-white"
+                  class="btn bg-green-700 px-14 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -205,12 +217,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-10 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-10 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="fire-service-btn"
-                  class="btn bg-green-700 px-14 text-white"
+                  class="btn bg-green-700 px-14 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -244,12 +258,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-14 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-14 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="ambulance-helpline-btn"
-                  class="btn bg-green-700 px-10 text-white"
+                  class="btn bg-green-700 px-10 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -283,12 +299,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-14 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-14 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="women-child-btn"
-                  class="btn bg-green-700 px-10 text-white"
+                  class="btn bg-green-700 px-10 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -322,12 +340,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-14 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-14 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="anti-corruption-btn"
-                  class="btn bg-green-700 px-10 text-white"
+                  class="btn bg-green-700 px-10 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -361,12 +381,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-10 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-10 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="electricity-helpline-btn"
-                  class="btn bg-green-700 px-14 text-white"
+                  class="btn bg-green-700 px-14 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -376,7 +398,7 @@
               <div class="flex justify-between items-center">
                 <img
                   class="h-14 rounded-2xl p-3 bg-[#FFE3E2]"
-                  src="./assets/emergency.png"
+                  src="./assets/brac.png"
                   alt=""
                 />
                 <i class="fa-regular fa-heart text-2xl text-gray-400"></i>
@@ -400,12 +422,14 @@
                 >
               </div>
               <div class="flex justify-center gap-2 mt-3">
-                <button class="copy-btn btn px-10 border-gray-400 rounded-lg">
+                <button
+                  class="copy-btn btn px-10 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                >
                   <i class="fa-regular fa-copy"></i> Copy
                 </button>
                 <button
                   id="brac-helpline-btn"
-                  class="btn bg-green-700 px-14 text-white"
+                  class="btn bg-green-700 px-14 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i>Call
                 </button>
@@ -415,7 +439,7 @@
               <div class="flex justify-between items-center">
                 <img
                   class="h-14 rounded-2xl p-3 bg-[#FFE3E2]"
-                  src="./assets/emergency.png"
+                  src="./assets/Bangladesh-Railway.png"
                   alt=""
                 />
                 <i class="fa-regular fa-heart text-2xl text-gray-400"></i>
@@ -440,13 +464,15 @@
               </div>
               <div class="flex justify-center gap-2 mt-3">
                 <div class="copy-btn">
-                  <button class="btn px-10 border-gray-400 rounded-lg">
+                  <button
+                    class="btn px-10 border-gray-400 rounded-lg hover:bg-gray-700 hover:text-white"
+                  >
                     <i class="fa-regular fa-copy"></i> Copy
                   </button>
                 </div>
                 <button
                   id="railway-helpline-btn"
-                  class="btn bg-green-700 px-14 text-white"
+                  class="btn bg-green-700 px-14 text-white hover:bg-gray-400"
                 >
                   <i class="fa-solid fa-phone"></i> Call
                 </button>
@@ -454,14 +480,14 @@
             </div>
           </section>
 
-          <aside class="bg-white col-span-3 rounded-2xl shadow">
+          <aside class="bg-white lg:col-span-3 rounded-2xl shadow mt-5 lg:mt-0">
             <div class="flex justify-between font-bold px-3 items-center mt-3">
               <h1 class="text-lg">
                 <i class="fa-solid fa-clock"></i> Call History
               </h1>
               <button
                 id="clear-btn"
-                class="btn bg-green-600 text-white rounded-3xl px-6"
+                class="btn bg-green-600 text-white rounded-3xl px-6 hover:bg-gray-400"
               >
                 Clear
               </button>
@@ -471,6 +497,7 @@
         </section>
       </main>
     </section>
+
     <script src="script.js"></script>
   </body>
 </html>
